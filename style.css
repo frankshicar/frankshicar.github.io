@@ -1,0 +1,122 @@
+*{
+    /*   border: solid 1px black; */
+    }
+    body{
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      background-color: #F8E0C3;
+      color: #344648;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: 1px;
+      font-family: "微軟正黑體",sans-serif;
+      text-align: center;
+    }
+    
+    /* 複寫區 */
+    ul{
+      padding: 0;
+      list-style: none;
+    }
+    h2{
+      margin: 0;
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
+    h2::after{
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 8px;
+      background-color: #FF7168;
+      margin-left: 10px;
+    }
+    h4{
+      margin: 0;
+      margin-top: 40px;
+      opacity: 0.8;
+      font-weight: 400;
+    }
+    a{
+      color: white;
+      text-decoration: none
+    }
+    hr{
+      border: none;
+      border-bottom: solid 4px #FF7168;
+      width: 40%;
+      margin-top: 0;
+    }
+    
+    
+    .left{
+      flex: 5
+    }
+    .right{
+      flex: 7
+    }
+    .left,.right{
+      padding: 15px
+    }
+    
+    .right{
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+    
+    .listExperience>li{
+      display: flex;
+      justify-content:center;
+      margin-bottom: 10px;
+      flex-direction: row;
+      justify-content:flex-start;
+      margin-right: 200px;
+    }
+
+    .listExperience>li:nth-child(1) ul{
+      border-color: #FF7168
+    }
+    .listExperience>li:nth-child(2) ul{
+      border-color: #FFA582
+    }
+    .listExperience>li:nth-child(3) ul{
+      border-color: #FFB087
+    }
+    .listExperience>li:nth-child(4) ul{
+      border-color: #FFDE9E
+    }
+    .listExperience li ul{
+      justify-content:flex-start;
+      padding-left: 10px;
+      margin-left: 130px;
+      position: absolute;
+      border-left: solid
+      
+    }
+    
+    
+    list skill
+    .listSkill{
+      width: 50%;
+      height: 40%;
+    }
+    /* 調中間文字匡 */
+    .listSkill li{
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .btn{
+      border: solid 3px #FF7168;
+      padding: 5px 20px;
+      margin-right: 10px;
+    }
+    .fill{
+      background-color: #FF7168;
+    }
