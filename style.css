@@ -4,7 +4,7 @@
     body{
       margin: 0;
       padding: 0;
-      background: url(/Users/frankshi/Desktop/web/Lab3/wave.gif) no-repeat;
+      background: url(wave.gif) no-repeat;
       background-size: 150%;
     }
     .box1{
