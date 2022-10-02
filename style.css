@@ -4,7 +4,7 @@
     body{
       margin: 0;
       padding: 0;
-      background: url(/Users/frankshi/Desktop/web/Lab3/wave.gif) no-repeat;
+      background: url(/Users/frankshi/Desktop/web/Lab3/wave.mp4) no-repeat;
       background-size: 100%;
     }
     .box1{
@@ -14,7 +14,7 @@
       text-align: center;
       margin: auto;
       margin-top: 5%;
-      /* color: white; */
+      color: white;
       font-family: 'Century Gothic',sans-serif;
     }
     
