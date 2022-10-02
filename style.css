@@ -2,16 +2,20 @@
     /*   border: solid 1px black; */
     }
     body{
-      padding: 50px;
-      display: flex;
-      justify-content: center;
-      background-color: #F8E0C3;
-      color: #344648;
-      font-size: 20px;
-      line-height: 28px;
-      letter-spacing: 1px;
-      font-family: "微軟正黑體",sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url(/Users/frankshi/Desktop/web/Lab3/006kYbF6gy1gc821s9ukvg30f007l1kz.gif) no-repeat;
+      background-size: 150%;
+    }
+    .box1{
+      width: 450px;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 40px;
       text-align: center;
+      margin: auto;
+      margin-top: 5%;
+      color: white;
+      font-family: 'Century Gothic',sans-serif;
     }
     
     /* 複寫區 */
@@ -50,46 +54,48 @@
     }
     
     
-    .left{
+    /* .left{
       flex: 5
     }
     .right{
-      flex: 7
-    }
+      flex: 2
+    } */
     .left,.right{
-      padding: 15px
+      padding: 5px
     }
     
     .right{
-      padding-left: 50px;
-      padding-top: 50px;
+      padding-left: 25px;
+      padding-top: 25px;
     }
     
     .listExperience>li{
       display: flex;
-      justify-content:center;
+      /* justify-content:center; */
+      /* padding-left: 10px; */
       margin-bottom: 10px;
       flex-direction: row;
       justify-content:flex-start;
-      margin-right: 200px;
+      margin-left: 30px;
     }
+   
 
     .listExperience>li:nth-child(1) ul{
-      border-color: #FF7168
+      border-color: #ff1100
     }
     .listExperience>li:nth-child(2) ul{
-      border-color: #FFA582
+      border-color: #ff4800
     }
     .listExperience>li:nth-child(3) ul{
-      border-color: #FFB087
+      border-color: #ff5900
     }
     .listExperience>li:nth-child(4) ul{
-      border-color: #FFDE9E
+      border-color: #ffaa00
     }
     .listExperience li ul{
       justify-content:flex-start;
       padding-left: 10px;
-      margin-left: 130px;
+      margin-left: 150px;
       position: absolute;
       border-left: solid
       
