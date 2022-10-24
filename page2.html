@@ -1,42 +1,85 @@
 <head>
     <link rel="stylesheet" href="style.css" />
+    <!-- <script src="index.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+    <!-- <script>
+      $(document).ready(function() {
+        // $("button").click(function(){
+        //   $("#box1").fadeIn();
+        // });
+        $("body").addClass('animated fadeOut');
+      });
+    </script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+        
+<style> 
+  #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    
+    /* background-color: #e5eecc;
+    border: solid 1px #c3c3c3; */
+    opacity: 1;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+    top: 40%;
+  }
+  </style>
   </head>
-  <div class="box1">
-    <div class="left">
-      <h1>施宇倫</h1>
-      <hr>
-      <p> 輔大醫資二</p>
-      <a href="index.html" style="display: center; position:absolute; top:70%; left:48% ;color: rgb(236, 155, 155);">上一頁</a>
+  
+  <body >
+    <div id="flip" >Click to slide down panel</div>
+    <div id = 'panel'>
+      <div class="box1">
+          <div class="left">
+            <h1>施宇倫</h1>
+            <hr>
+            <p> 輔大醫資二</p>
+            <a href="index.html" style="display: center; position:absolute; top:80%; left:48% ;color: rgb(236, 155, 155);">上一頁</a>
       
-    <div class="right">
-      <div class="decoration"></div>
-        <h4></h4>
-        <h2>經歷</h2>
-        <ul class="listExperience" >
-          <li >2009-2015
-            <ul>
-              <li>平興國小</li>
+            <div class="right">
+            <div class="decoration"></div>
+            <h4></h4>
+            <h2>經歷</h2>
+            <ul class="listExperience" >
+              <li >2009-2015
+                <ul>
+                  <li>平興國小</li>
+                </ul>
+              </li>
+              <li >2015-2018
+                <ul>
+                  <li>實踐國中</li>
+                </ul>
+              </li>
+              <li >2018-2021
+                <ul>
+                  <li>和平高中</li>
+                </ul>
+              </li>
+              <li >2021- now  
+                <ul>
+                  <li>輔仁大學醫學資訊與創新應用學程</li>
+                </ul>
+              </li>
             </ul>
-          </li>
-          <li >2015-2018
-            <ul>
-              <li>實踐國中</li>
-            </ul>
-          </li>
-          <li >2018-2021
-            <ul>
-              <li>和平高中</li>
-            </ul>
-          </li>
-          <li >2021- now  
-            <ul>
-              <li>輔仁大學醫學資訊與創新應用學程</li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+          </div>
+        </div>
     </div>
+        
   </div>
+  </body>    
+    
   <video autoplay loop muted class="back">
     <source src="video/video.mp4">
   </video>
